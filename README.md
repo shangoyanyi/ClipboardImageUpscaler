@@ -1,6 +1,6 @@
-# Click2UpscaleClipboardImage
+# ClipboardImageUpscaler
 
-**Click2UpscaleClipboardImage** 是一款專為 Windows 使用者設計的輕量工具，透過一鍵執行指令即可將剪貼簿中的圖像放大 4 倍，並回寫至剪貼簿。適合處理螢幕擷取後需要高解析度放大的工作流程。
+**ClipboardImageUpscaler** 是一款專為 Windows 使用者設計的輕量工具，透過一鍵執行指令即可將剪貼簿中的圖像放大 2 倍或 4 倍，並回寫至剪貼簿。適合處理螢幕擷取後需要高解析度放大的工作流程。
 
 ---
 
@@ -9,9 +9,9 @@
 - 使用者可透過 **Win + Shift + S** 擷取螢幕畫面
 - 執行程式後，自動：
   - 從剪貼簿取得圖片
-  - 放大圖片尺寸為原圖 4 倍（bicubic 重採樣）
+  - 放大圖片尺寸為原圖 2 倍或 4 倍（bicubic 重採樣）
   - 將放大後圖片回寫至剪貼簿
-- 過程中自動紀錄操作 log 至 `%LOCALAPPDATA%\Programs\Logs\Click2UpscaleClipboardImage.log`
+- 過程中自動紀錄操作 log 
 - 無 GUI，適合搭配快捷鍵、熱鍵或右鍵選單自動化流程
 
 ---
